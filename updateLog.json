@@ -1,0 +1,51 @@
+
+{
+  "version": "2.0",
+  "lastUpdated": "2025-07-23",
+  "updates": [
+    {
+      "version": "2.0",
+      "type": "major",
+      "date": "2025-07-23",
+      "title": "🆕 Version 2.0 - Major Update",
+      "description": "**Latest updates and improvements**",
+      "features": [
+        "• Added 3 new queue system options for server setup",
+        "• New game role feature for queues",
+        "• New queue descriptions that you can add to your queue",
+        "• Changed the pinging system to use roles instead of users",
+        "• Added new admin commands",
+        "• Better error handling"
+      ],
+      "visible": true
+    },
+    {
+      "version": "1.9",
+      "type": "minor",
+      "date": "2024-01-10",
+      "title": "🔧 Bug Fixes & Improvements",
+      "description": "**Bug fixes and stability improvements**",
+      "features": [
+        "• Fixed channel creation issues",
+        "• Improved database stability",
+        "• Better permission handling",
+        "• Enhanced error messages"
+      ],
+      "visible": false
+    },
+    {
+      "version": "1.8",
+      "type": "patch",
+      "date": "2024-01-05",
+      "title": "🛠️ Minor Fixes",
+      "description": "**Small fixes and optimizations**",
+      "features": [
+        "• Fixed memory leaks",
+        "• Improved response times",
+        "• Better logging system",
+        "• Code optimizations"
+      ],
+      "visible": false
+    }
+  ]
+}
