@@ -21,7 +21,7 @@ export const catCommand = {
     await interaction.deferReply();
 
     try {
-      const response = await fetch('https://api.thecatapi.com/v1/images/search?limit=1&api_key=live_lhZTppp1zQjiSAFRipReigbwgpfvLvhrKL012M8VthmYl2NCKfpmAYgjdyZvnmSu');
+      const response = await fetch('https://api.thecatapi.com/v1/images/search?limit=1&api_key=Your_ApiKey_here');
       const data = await response.json();
       const cat = data[0];
       const catImageUrl = cat?.url;
